@@ -1,1 +1,3 @@
-# life_expectancy
+## Life Expectancy
+
+Life expectancy data is vital for industries that manage risk, plan for the future, and allocate resources effectively. It plays a critical role in life insurance, life settlements, healthcare, pensions, financial planning, and public policy, where accurate longevity predictions inform pricing, policy design, and resource distribution. Beyond finance and insurance, it supports medical advancements, public health initiatives, retirement planning, and even legal cases by assessing mortality risks and potential outcomes. By providing insights into individual and population-level longevity, life expectancy data drives decisions that impact financial stability, healthcare innovation, and societal well-being.
