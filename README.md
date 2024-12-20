@@ -46,5 +46,5 @@ Life Insurance: Adjusts premiums and risk profiles.\
 Life Settlements: Affects the valuation of life insurance policies.\
 Healthcare: Guides treatment plans and resource allocation.\
 
-
+*rough draft, still working
 
