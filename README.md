@@ -6,21 +6,25 @@ This project features a dashboard that visualizes the relationship between age a
 
 Life expectancy (LE) is determined through statistical and actuarial methods that analyze a combination of individual and population-level factors to estimate the average remaining lifespan. These LE reports assess key elements such as medical history, lifestyle choices, age, gender, family health history, as well as socioeconomic and behavioral factors.
 
+Key Life Expectancy Metrics:
+
+- Certificate Age: The individual's age on the date the certificate was issued.
+- Referenced Mortality Table: The baseline table used for calculations, with non-tobacco tables applied if tobacco use is undocumented.
+- Mortality Multiplier: A factor applied to adjust baseline mortality rates based on health conditions, increasing or decreasing the estimated life expectancy.
+- Mean Life Expectancy: The average remaining lifespan across the group.
+- Median Life Expectancy: The age at which half of a hypothetical group of 1,000 similar individuals would have died.
+  
 You can explore the dashboard's interactive graph [here.](https://public.tableau.com/shared/D9JNJPZXX?:display_count=n&:origin=viz_share_link)
 
 **The Data**
 
-The data was collected from 800 Life expectancy reports from an unnammed underwriter.  
-
-Key Life Expectancy Metrics:
-
-Certificate Age: The individual's age on the date the certificate was issued.\
-Referenced Mortality Table: The baseline table used for calculations, with non-tobacco tables applied if tobacco use is undocumented.\
-Mortality Multiplier: A factor applied to adjust baseline mortality rates based on health conditions, increasing or decreasing the estimated life expectancy.\
-Mean Life Expectancy: The average remaining lifespan across the group.\
-Median Life Expectancy: The age at which half of a hypothetical group of 1,000 similar individuals would have died.
+For this dataset, I analyzed 800 life expectancy reports from an unnamed underwriter. The data focuses exclusively on non-smoking individuals, using a non-tobacco-referenced mortality table, with ages ranging from 60 to 100 years.
 
 The key data points used in this project include the certificate age, mean life expectancy, and mortality multiplier.
+
+
+
+
 
 More about the mortality multiplier: 
 
@@ -28,10 +32,6 @@ Mortality multipliers adjust baseline mortality rates from standard tables to re
 
 
 
-
-
-For this i used soley non-smoking individuals 
-individuals age range observeers is between 60 to 100
 
 **The Results**
 
