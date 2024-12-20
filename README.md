@@ -31,7 +31,7 @@ Mortality multipliers adjust baseline mortality rates from standard tables to re
 
 
 For this i used soley non-smoking individuals 
-
+individuals age range observeers is between 60 to 100
 
 **The Results**
 
