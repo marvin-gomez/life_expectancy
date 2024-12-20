@@ -24,7 +24,7 @@ The key data points used in this project include the certificate age, mean life 
 
 More about the mortality multiplier: 
 
-A factor adjusting the baseline mortality rate based on individual risk. A multiplier of 100 represents standard mortality, while higher values reduce life expectancy.
+Mortality multipliers adjust baseline mortality rates from standard tables to reflect an individual's unique risk profile. A multiplier above 1.0 indicates higher mortality risk, shortening life expectancy, while a multiplier below 1.0 suggests lower risk, extending it.
 
 
 
@@ -36,6 +36,9 @@ For this i used soley non-smoking individuals
 **The Results**
 
 Here are the calculations 
+
+Mean = 0.146652*Certificate_Age^2 + -30.5796*Certificate_Age + 1615.44
+
 
 Life expectancies can be applied: 
 
