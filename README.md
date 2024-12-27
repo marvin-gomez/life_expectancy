@@ -6,6 +6,12 @@ This project features a dashboard that visualizes the relationship between age a
 
 Life expectancy (LE) is determined through statistical and actuarial methods that analyze a combination of individual and population-level factors to estimate the average remaining lifespan. These LE reports assess key elements such as medical history, lifestyle choices, age, gender, family health history, as well as socioeconomic and behavioral factors.
 
+
+
+**The Data**
+
+For this dataset, I analyzed 800 life expectancy reports from an unnamed underwriter. The data focuses exclusively on non-smoking individuals, using a non-tobacco-referenced mortality table, with ages ranging from 60 to 100 years.
+
 Key Life Expectancy Metrics:
 
 - Certificate Age: The individual's age on the date the certificate was issued.
@@ -13,23 +19,14 @@ Key Life Expectancy Metrics:
 - Mortality Multiplier: A factor applied to adjust baseline mortality rates based on health conditions, increasing or decreasing the estimated life expectancy.
 - Mean Life Expectancy: The average remaining lifespan across the group.
 - Median Life Expectancy: The age at which half of a hypothetical group of 1,000 similar individuals would have died.
-  
-You can explore the dashboard's interactive graph [here.](https://public.tableau.com/shared/D9JNJPZXX?:display_count=n&:origin=viz_share_link)
-
-**The Data**
-
-For this dataset, I analyzed 800 life expectancy reports from an unnamed underwriter. The data focuses exclusively on non-smoking individuals, using a non-tobacco-referenced mortality table, with ages ranging from 60 to 100 years.
 
 The key data points used in this project include the certificate age, mean life expectancy, and mortality multiplier.
 
-Determining the mortality multiplier: 
-
-Mortality multipliers adjust baseline mortality rates from standard tables to reflect an individual's unique risk profile. A multiplier above 1.0 indicates higher mortality risk, shortening life expectancy, while a multiplier below 1.0 suggests lower risk, extending it.
-
-
-
-
 **The Results**
+
+To determine the mortality rating of an individual, start by referencing standard mortality tables (e.g., 100) based on the individual's age and gender as a baseline. Then, evaluate the individual's unique risk factors, including any chronic health conditions, lifestyle choices (such as smoking or activity level), family medical history, and socioeconomic factors. If they have significant health risks or a history of chronic illnesses, their mortality rating may be higher (e.g., 150, 200 or more), indicating a shorter life expectancy. Conversely, if the individual is in good health with few risk factors, their rating may be lower (e.g., 100 or below), reflecting a longer life expectancy. 
+
+You can explore the dashboard's interactive graph [here.](https://public.tableau.com/shared/D9JNJPZXX?:display_count=n&:origin=viz_share_link)
 
 The graphs below show that as age increases, life expectancy decreases across all mortality multipliers, with higher mortality multipliers (e.g., 200) resulting in significantly shorter life expectancies compared to lower ones (e.g., 100).
 
@@ -71,6 +68,9 @@ P-value: < 0.0001
 Mean = 0.00195311*(Age)^3 + -0.335199*(Age)^2 + 8.79437*(Age) + 550.088\
 R-Squared: 0.985183\
 P-value: < 0.0001
+
+
+
 
 This project highlights the critical role life expectancy data plays in understanding longevity and its applications across various industries. By visualizing the relationship between age, mortality rates, and remaining lifespan, this analysis provides valuable insights for informed decision-making in such places like:
 
